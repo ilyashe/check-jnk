@@ -1,0 +1,6 @@
+\n
+DNS time:\t%{time_namelookup}s
+Connect time:\t%{time_connect}s
+Start transfer:\t%{time_starttransfer}s
+Total time:\t%{time_total}s
+\n
