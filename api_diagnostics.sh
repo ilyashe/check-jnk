@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 API_URL="https://api.litres.ru/foundation/api/cart/status"  # замени на свой URL
 HOST=$(echo $API_URL | awk -F[/:] '{print $4}')
