@@ -13,4 +13,4 @@ echo -e "\n🛣️ Traceroute до хоста ($HOST)"
 traceroute $HOST
 
 echo -e "\n📬 curl-запрос к API"
-curl -w "@curl-format.txt" -o /dev/null -s $API_URL
+curl -w "@curl_format.txt" -o /dev/null -s $API_URL
