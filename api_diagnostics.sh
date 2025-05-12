@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API_URL="https://example.com/api"  # замени на свой URL
+API_URL="https://api.litres.ru/foundation/api/cart/status"  # замени на свой URL
 HOST=$(echo $API_URL | awk -F[/:] '{print $4}')
 
 echo "🔍 Проверка DNS"
